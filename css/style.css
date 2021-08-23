@@ -1,0 +1,235 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.tittle {
+    padding-top: 6%;
+    padding-bottom: 1%;
+    font-size: 30px;
+}
+
+.titulocatalogopri {
+    color: black;
+    font-size: 33px;
+    opacity: 1;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+
+.titulocatalogo {
+    color: black;
+    font-size: 26px;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+
+
+.separador1 {
+    height: 1px;
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.imgmapa {
+    margin-top: 0px;
+}
+
+
+
+.itemmenu {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    transition: 0.3s all;
+}
+
+.itemmenu:hover {
+    opacity: 1;
+}
+
+.menu {
+    width: 60%;
+    padding-top: 5%;
+    color: white;
+    display: block;
+}
+
+.imglogo {
+    width: 25%;
+    margin-top: 10%;
+}
+
+.starts {
+    width: 14%;
+    margin-top: 3%;
+}
+
+.startscatalogo {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.contredesheader {
+    padding-top: 6%;
+}
+
+.red {
+    width: 20%;
+}
+
+.btncatalogo {
+    border: 1px solid #C8970F;
+    border-radius: 2px;
+    margin-top: 50px;
+    color: #C8970F;
+    transition: all 0.3s;
+}
+
+.btncatalogo:hover {
+    background-color: #c8970f75;
+    color: white;
+}
+
+.btncat {
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.titulonosotros {
+    color: black;
+    font-size: 30px;
+    opacity: 1;
+    padding-top: 100px;
+}
+
+.subtitulonosotros {
+    color: black;
+    font-size: 26px;
+    opacity: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nosotrosbox {
+    background-image: url(../img/img2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.textcontactos{
+    margin-top: 150px;
+}
+
+@media (max-width: 1400px) {
+
+    .tittle {
+        padding-top: 22%;
+        padding-bottom: 22%;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .menu {
+        width: 80%;
+        padding-top: 5%;
+        color: white;
+        display: block;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+
+    .imglogo {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 20%;
+    }
+
+    .starts {
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .startscatalogo {
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+
+    .contredesheader {
+        padding-top: 30%;
+    }
+
+    .discol {
+        flex-direction: column;
+    }
+
+    .p0 {
+        padding: 0%;
+    }
+
+    .tittle {
+        display: none;
+    }
+
+    .subtittle {
+        margin-top: 50px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+    }
+
+    .textcaracteristicas {
+        margin-top: 0px;
+    }
+
+    .textcaracteristicas2 {
+        margin-top: 50px;
+    }
+
+    .separador1 {
+        height: 1px;
+        background-color: black;
+        margin-top: 50px;
+    }
+
+    .imgmapa {
+        margin-top: 100px;
+    }
+
+    .contredes {
+        flex-direction: column;
+    }
+
+    .linkredes {
+        margin-top: 50px;
+    }
+
+    .textplanes {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nosotrosbox {
+        background-image: none;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    
+    .textcontactos{
+        margin-top: 0px;
+    }
+
+}
